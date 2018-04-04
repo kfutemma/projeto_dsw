@@ -1,0 +1,148 @@
+
+
+/* DESIGN GERAIS DO HTML
+------------------------------------*/
+html {
+	height: 100%;
+	background: linear-gradient(110deg, #8A9EFF , #C3CCF6, #B2BCF1);
+}
+body {
+	height: 100%;
+	margin: auto;
+}
+
+div {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: -.01em;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", 
+	"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+img.fotoTexto {
+	float: right;
+	border-radius: 13px;
+	margin-left: 15px;
+	height: 170px;
+	width: 170px
+}
+
+/* DESIGN DO MAPA
+-------------------------------------*/
+#map-canvas {
+	height: 80%;
+	width: 80%;
+	margin: auto;
+	border-radius: 13px;
+}
+#iw_container .iw_title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.iw_content {
+	padding: 15px 15px 15px 0;
+}
+/* FORMATAÇÃO DO TEXTO
+----------------------------------*/
+h1, h2, h3, p {
+	text-align: center;
+	text-decoration: none;
+	line-height: 3.14286;
+	font-weight: 400;
+	letter-spacing: -.01em;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", 
+	"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+h3 {
+	margin-left: 13.5%;
+	text-align: justify;
+}
+p.texto {
+	margin-left: 13.5%;
+	margin-right: 13.5%;
+	text-align: justify;
+}
+
+/* DESIGN DO MENU HEAD
+---------------------------------*/
+li:first-child {
+    margin-left: 40%;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#F1CA97;
+}
+
+li.menu  {
+  float: left;
+}
+
+li.menu a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 3.14286;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", 
+  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+li:hover {
+	background-color: #F5BC71;
+}
+
+/* DESIGN DO FOOTER DAS PÁGINAS
+--------------------------------------*/
+
+footer {
+	display: inline;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 3.14286;
+}
+
+#footer{
+	background-color: #F1CA97;
+}
+p.footer{
+	text-align: center;
+}
+
+/* DESIGN DE FORMULÁRIO 
+--------------------------------------*/
+form {
+    display: block;
+	padding:70px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input {
+   width: 375px;
+   height: 25px;
+}
+
+select{
+	width: 375px;
+   height: 25px;
+}
+ 
+textarea{
+	max-height: 75px;
+	max-width: 375px;	
+	min-width: 375px;
+	min-height: 75px;
+	font-size: 14px;
+}
+
+
